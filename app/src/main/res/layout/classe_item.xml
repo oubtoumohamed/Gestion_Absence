@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_classe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/btn_classe"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#D5225C6E"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:text="Button"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/nbr_etudiant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D5225C6E"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:text="TextView" />
+
+</LinearLayout>
